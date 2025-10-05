@@ -20,4 +20,7 @@ export default defineConfig({
     resolve: {
         conditions: ["source"],
     },
+    css: {
+        postcss: "./postcss.config.js",
+    },
 });

@@ -1,0 +1,31 @@
+:root {
+    --font-family: "Nunito Sans", sans-serif;
+    --color-white: oklch(1 0 0);
+    --color-black: oklch(0 0 0);
+    --color-grey-50: oklch(0.9911 0 0);
+    --color-grey-250: oklch(0.8203 0 0);
+    --color-grey-300: oklch(0.7636 0 0);
+    --color-grey-350: oklch(0.6764 0 0);
+    --color-grey-400: oklch(0.5999 0 0);
+    --color-grey-950: oklch(0.1923 0.0074 229.32);
+    --color-blue-900: oklch(0.3342 0.0274 246.57);
+    --color-blue-950: oklch(0.2866 0.0247 243.93);
+    --var-spacing-2: "8px";
+    --var-spacing-2: "16px";
+    --var-spacing-3: "24px";
+    --var-spacing-4: "32px";
+    --var-spacing-5: "40px";
+    --var-spacing-6: "48px";
+    --var-spacing-7: "56px";
+    --var-spacing-8: "64px";
+    --var-spacing-9: "72px";
+    --var-spacing-10: "80px";
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-semi-bold: 600;
+    --font-weight-extra-bold: 800;
+}
+
+body {
+    font-family: var(--font-family);
+}
